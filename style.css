@@ -1,0 +1,100 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.img-hero {
+    height:calc(100vh - 40px) !important;
+}
+.carousel-Me {
+    background-color: #fdfdfdbf !important;
+    border-top:5px  solid #3fbabf ;
+    bottom: 170px !important ;
+}
+
+.bg-bl {
+    background-color: #3fbabf !important;
+    border: #3fbabf !important;
+}
+.color-bl {
+    color:#3fbabf !important;
+}
+.btn-sh{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.btn2-sh{
+    width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+    background-color: #3fbabf !important;
+}
+.nav2-sh {
+    top: 40px;
+}
+.bd-sh{
+    width: 50px !important;
+    border-width:3px !important ;
+    border-color:#3fbabf !important ;
+}
+ .circle-sh{
+width: 70px !important;
+    height: 70px !important;
+ }
+  .circle-sh-contact {
+      width: 70px !important;
+      height: 70px !important;
+      border-style: dotted;
+      border-color: #3fbabf;
+  }
+ .nav-tabs .nav-link.active{
+    color: #3fbabf !important;
+    border-right: 2px solid #3fbabf !important;
+ }
+ .bg-baby-blue{
+    background-color: #eff4f4 !important;
+ }
+.space-sh{
+    margin-right: 4rem !important;
+}
+ .iframe-sh{
+height: 300px;
+ }
+  .circle-sh-icone {
+    padding: 5px;
+    width: 26px !important;
+    height: 27px !important;
+    border: 1px solid rgb(128, 128, 128);
+ }
+
+  .font-size-sh{
+    font-size: 10px !important;
+  }
+
+@media (min-width: 300px )and (max-width: 769px) {
+    .nav1-sh{
+        display: none;
+    }
+  .nav2-sh {
+            top: 0px;
+        }
+        .carousel-Me{
+            bottom: 142px!important; 
+        }
+        .departments-sh{
+            flex-wrap: wrap;
+        }
+        .space-sh{
+                text-align: left;
+                    margin-left: 0px !important;
+        }
+                        .space-sh2 {
+                            margin: 0px !important;
+                        }
+                        .flex-me{
+                            flex-wrap: wrap;
+                        }
+                        .map-sh{
+                            padding: 0px !important;
+                        }
+}
+    
